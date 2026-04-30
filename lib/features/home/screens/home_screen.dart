@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 24),
                 _infoCard('🌿 О кафе', 'БАЗИЛЬ — это место, где сочетаются авторская кухня, живая музыка и атмосфера настоящего отдыха. Мы готовим из свежих продуктов, используем домашнее тесто и фирменные рецепты. Приходите за вкусной едой и хорошим настроением!'),
-                _infoCard('📍 Контакты', '📍 ул. Герцена, 56, Томск\n🕐 Пн-Вс: 10:00 – 23:00 (кухня до 22:30)\n📞 +7 (3822) 90-12-34\n🌐 cafebazil.ru', isContacts: true, onCall: () => _makeCall('83822901234'), onSite: () => _openUrl('https://cafebazil.ru')),
+                _infoCard('📍 Контакты', '📍 МО, ЖК Бутово-Парк, дом 23к2А, 2 этаж\n🕐 Пн-Вс: 12:00 – 00:00 (кухня до 23:00)\n📞 +7 (985)335-21-55\n🌐 cafebazil.ru', isContacts: true, onCall: () => _makeCall('89853352155'), onSite: () => _openUrl('https://cafebazil.ru')),
                 
                 // === ДИНАМИЧЕСКИЕ СОБЫТИЯ ===
                 const Padding(padding: EdgeInsets.only(top: 16, bottom: 8), child: Text('📅 Ближайшие события', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white))),
